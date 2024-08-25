@@ -3,32 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prueba1</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
 </head>
 <body>
     
     <header>
 
-        <div class="MenuContainer">
+        <div class=""menu-container>
+            
+            <div class="block-menu-icon">
+                <img src="imgs/menu.png" alt="Menú" id="menu-icon1"> <!-- Asegúrate de que la imagen esté en la carpeta correcta -->
+            </div>
+        
+            <ul id="headermenu" id="close">
+                <li><a href="#">Comprar</a><img src="imgs/carrito.png"alt="Carrito"></li>
+                <li><a href="#">Carta</a><img src="imgs/carta.png"alt="Carta"></li>
+                <li><a href="#">Mapa</a><img src="imgs/mapa.png"alt="Mapa"></li>
+            </ul>
 
-            <img src="" class="MenuLogoHeader" alt="IconLogo">
+        </div>
+        
 
-             <form class="FormHeader">
+    </header> 
 
-                 <input type="checkbox" id="menu" />
-                <label for="MenuLogoHeader">
-                    
-                    <img src="" alt="menuLogo">
+    <div class="banner-slide">
 
-                </label>
+        <div class="text-container">
+            
+            <h1>Perros Calientes</h1>
 
-
-
-             </form>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iste architecto suscipit obcaecati harum est.</p>
 
         </div>
 
-    </header> 
+        <div class="image-container">
+
+            <img src="imgs/perrocaliente.jpg" alt="banner-slide" id="perro-slide">
+            
+        </div>
+
+    </div>
+
+    <script src="scripts/script.js"></script> <!-- Asegúrate de que el archivo script.js esté en la carpeta correcta -->
 
 </body>
 </html>

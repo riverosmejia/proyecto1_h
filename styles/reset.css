@@ -1,0 +1,72 @@
+/* reset.css */
+/* Resetea el margen, el padding y establece el box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remueve las decoraciones de texto en enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Asegura que las listas no tengan margen o padding */
+ul, ol {
+    list-style: none;
+}
+
+/* Establece una fuente base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Imágenes y videos no deben exceder el ancho de su contenedor */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Quita el borde de los botones y elementos input al hacer clic */
+button, input, textarea {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Asegura que los elementos de formulario no se expandan fuera de su contenedor */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Remueve el estilo por defecto de los botones */
+button {
+    cursor: pointer;
+}
+
+/* Asegura que las tablas no tengan bordes o espacios entre celdas por defecto */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Estilo por defecto para todos los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/* Establece una altura de línea básica para los párrafos */
+p {
+    line-height: 1.5;
+}
+
+/* Evita que las citas tengan un margen a la izquierda */
+blockquote {
+    margin: 0;
+    padding: 0;
+}
