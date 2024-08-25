@@ -11,6 +11,7 @@ header {
 li {
     display: flex;
     align-items: center;
+    gap: 10px; 
 }
 
 li img {
@@ -19,7 +20,7 @@ li img {
     width: auto;
     margin-left: 8px;
     margin-left: auto;
-    
+
 }
 
 .banner-slide {
