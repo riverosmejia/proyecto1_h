@@ -23,6 +23,13 @@ li img {
 
 }
 
+#flechas{
+
+    height: 1em;
+    width: auto;
+
+}
+
 .banner-slide {
     display: flex; /* Usa Flexbox para alinear los elementos en fila */
     flex-direction: row; /* Apila los elementos horizontalmente por defecto */
